@@ -2,8 +2,8 @@
 
 ## 一句代码保存截图,将View相关的页面保存为图片,支持 UIView,UIScrollView,UITableView,UICollectionView,UIWebView,WKWebView。支持iOS11
 
-[![](https://img.shields.io/badge/Supported-iOS7-4BC51D.svg?style=flat-square)](https://github.com/TonyReet/TYSnapshotScroll)
-[![](https://img.shields.io/badge/Objc-compatible-4BC51D.svg?style=flat-square)](https://github.com/TonyReet/TYSnapshotScroll)
+[![](https://img.shields.io/badge/Supported-iOS7-4BC51D.svg?style=flat-square)](https://github.com/Teacher-Fu/FQScreenshot)
+[![](https://img.shields.io/badge/Swift-compatible-4BC51D.svg?style=flat-square)](https://github.com/Teacher-Fu/FQScreenshotl)
 
 
 ### 方法一:cocopods
