@@ -8,10 +8,10 @@
 
 import UIKit
 import WebKit
-internal typealias imageBackBlock = ((UIImage) -> Void )
-internal typealias VoidBlock = (() -> Void)
+public typealias imageBackBlock = ((UIImage) -> Void )
+public typealias VoidBlock = (() -> Void)
  public class FQScreenShot: NSObject {
-    static func screenShot(_ shotView:UIView,finisBlocck:imageBackBlock?){
+    public static func screenShot(_ shotView:UIView,finisBlocck:imageBackBlock?){
         if shotView.isKind(of: WKWebView.self){
             let wkWebView = shotView as! WKWebView
             wkWebView.screenShot { (shotImage) in
