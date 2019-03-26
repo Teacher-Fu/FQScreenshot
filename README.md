@@ -6,7 +6,7 @@
 [![](https://img.shields.io/badge/Swift-compatible-4BC51D.svg?style=flat-square)](https://github.com/Teacher-Fu/FQScreenshot)
 
 
-### 方法一:cocopods
+### 方法一:cocoapods
 - 1、:
 
 ```swift
@@ -25,7 +25,7 @@ FQScreenShot.screenShot(yourView) { (shotImage) in
 ```
 
 ### 方法二:手动添加
-- 1、引入头文件:
+- 1、下载demo引入文件FQScreenshot,对应文件添加头文件
 
 ```swift
 import FQScreenShot
