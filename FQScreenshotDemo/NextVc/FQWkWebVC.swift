@@ -2,7 +2,7 @@
 //  FQWkWebVC.swift
 //  FQScreenshotDemo
 //
-//  Created by 付强 on 2019/3/16.
+//  Created by TeacherFu on 2019/3/16.
 //  Copyright © 2019年 IamTheHeroYasuo. All rights reserved.
 //
 

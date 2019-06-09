@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58110A0F22800E5400C3706D /* UIImage+FQAddLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58110A0E22800E5400C3706D /* UIImage+FQAddLogo.swift */; };
+		58110A142283D69E00C3706D /* FQShoutManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58110A132283D69E00C3706D /* FQShoutManger.swift */; };
+		58110A6C228C214200C3706D /* FQAddLogoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58110A6A228C214200C3706D /* FQAddLogoVC.swift */; };
+		58110A6D228C214200C3706D /* FQAddLogoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58110A6B228C214200C3706D /* FQAddLogoVC.xib */; };
 		58323E0E223BB25C0032A64F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E0D223BB25C0032A64F /* AppDelegate.swift */; };
 		58323E10223BB25C0032A64F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E0F223BB25C0032A64F /* ViewController.swift */; };
 		58323E13223BB25C0032A64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58323E11223BB25C0032A64F /* Main.storyboard */; };
@@ -18,7 +22,6 @@
 		58323E41223BB4930032A64F /* UIImage+FQScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E40223BB4930032A64F /* UIImage+FQScreenshot.swift */; };
 		58323E45223BD8140032A64F /* UIViewController+FQScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E44223BD8140032A64F /* UIViewController+FQScreenshot.swift */; };
 		58323E47223BDC130032A64F /* UIScrollView+FQScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E46223BDC130032A64F /* UIScrollView+FQScreenshot.swift */; };
-		58323E49223BEE6C0032A64F /* FQScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E48223BEE6C0032A64F /* FQScreenShot.swift */; };
 		58323E4B223C050A0032A64F /* UIWebView+FQScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E4A223C050A0032A64F /* UIWebView+FQScreenShot.swift */; };
 		58323E4E223CA2EE0032A64F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E4D223CA2EE0032A64F /* BaseViewController.swift */; };
 		58323E50223CAB800032A64F /* ShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E4F223CAB800032A64F /* ShotViewController.swift */; };
@@ -28,6 +31,12 @@
 		58323E5D223D1D540032A64F /* FQScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E5C223D1D540032A64F /* FQScrollViewVC.swift */; };
 		58323E5F223D22D70032A64F /* FQTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E5E223D22D70032A64F /* FQTableVC.swift */; };
 		58323E61223D22F80032A64F /* FQCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58323E60223D22F80032A64F /* FQCollectionVC.swift */; };
+		58D7205E228FECBF00CE2665 /* add.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 58D7205C228FECBE00CE2665 /* add.jpeg */; };
+		58D7205F228FECBF00CE2665 /* current.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58D7205D228FECBF00CE2665 /* current.jpg */; };
+		58D7206222900EA200CE2665 /* FQDoImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D7206022900EA200CE2665 /* FQDoImageVC.swift */; };
+		58D7206322900EA200CE2665 /* FQDoImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D7206122900EA200CE2665 /* FQDoImageVC.xib */; };
+		58D7206622900EBC00CE2665 /* FQComposeImageSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D7206422900EBC00CE2665 /* FQComposeImageSVC.swift */; };
+		58D7206722900EBC00CE2665 /* FQComposeImageSVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D7206522900EBC00CE2665 /* FQComposeImageSVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58110A0E22800E5400C3706D /* UIImage+FQAddLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+FQAddLogo.swift"; sourceTree = "<group>"; };
+		58110A132283D69E00C3706D /* FQShoutManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQShoutManger.swift; sourceTree = "<group>"; };
+		58110A6A228C214200C3706D /* FQAddLogoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQAddLogoVC.swift; sourceTree = "<group>"; };
+		58110A6B228C214200C3706D /* FQAddLogoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FQAddLogoVC.xib; sourceTree = "<group>"; };
 		58323E0A223BB25C0032A64F /* FQScreenshotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQScreenshotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58323E0D223BB25C0032A64F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58323E0F223BB25C0032A64F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +78,6 @@
 		58323E40223BB4930032A64F /* UIImage+FQScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+FQScreenshot.swift"; sourceTree = "<group>"; };
 		58323E44223BD8140032A64F /* UIViewController+FQScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+FQScreenshot.swift"; sourceTree = "<group>"; };
 		58323E46223BDC130032A64F /* UIScrollView+FQScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+FQScreenshot.swift"; sourceTree = "<group>"; };
-		58323E48223BEE6C0032A64F /* FQScreenShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQScreenShot.swift; sourceTree = "<group>"; };
 		58323E4A223C050A0032A64F /* UIWebView+FQScreenShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWebView+FQScreenShot.swift"; sourceTree = "<group>"; };
 		58323E4D223CA2EE0032A64F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		58323E4F223CAB800032A64F /* ShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +87,12 @@
 		58323E5C223D1D540032A64F /* FQScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQScrollViewVC.swift; sourceTree = "<group>"; };
 		58323E5E223D22D70032A64F /* FQTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQTableVC.swift; sourceTree = "<group>"; };
 		58323E60223D22F80032A64F /* FQCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQCollectionVC.swift; sourceTree = "<group>"; };
+		58D7205C228FECBE00CE2665 /* add.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add.jpeg; sourceTree = "<group>"; };
+		58D7205D228FECBF00CE2665 /* current.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = current.jpg; sourceTree = "<group>"; };
+		58D7206022900EA200CE2665 /* FQDoImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQDoImageVC.swift; sourceTree = "<group>"; };
+		58D7206122900EA200CE2665 /* FQDoImageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FQDoImageVC.xib; sourceTree = "<group>"; };
+		58D7206422900EBC00CE2665 /* FQComposeImageSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQComposeImageSVC.swift; sourceTree = "<group>"; };
+		58D7206522900EBC00CE2665 /* FQComposeImageSVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FQComposeImageSVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +143,7 @@
 		58323E0C223BB25C0032A64F /* FQScreenshotDemo */ = {
 			isa = PBXGroup;
 			children = (
+				58D7205B228FECB000CE2665 /* reasouce */,
 				58323E4C223CA2130032A64F /* NextVc */,
 				58323E3B223BB29B0032A64F /* FQScreenshot */,
 				58323E0D223BB25C0032A64F /* AppDelegate.swift */,
@@ -162,8 +181,9 @@
 				58323E40223BB4930032A64F /* UIImage+FQScreenshot.swift */,
 				58323E44223BD8140032A64F /* UIViewController+FQScreenshot.swift */,
 				58323E46223BDC130032A64F /* UIScrollView+FQScreenshot.swift */,
-				58323E48223BEE6C0032A64F /* FQScreenShot.swift */,
 				58323E4A223C050A0032A64F /* UIWebView+FQScreenShot.swift */,
+				58110A0E22800E5400C3706D /* UIImage+FQAddLogo.swift */,
+				58110A132283D69E00C3706D /* FQShoutManger.swift */,
 			);
 			path = FQScreenshot;
 			sourceTree = "<group>";
@@ -179,8 +199,23 @@
 				58323E5C223D1D540032A64F /* FQScrollViewVC.swift */,
 				58323E5E223D22D70032A64F /* FQTableVC.swift */,
 				58323E60223D22F80032A64F /* FQCollectionVC.swift */,
+				58110A6A228C214200C3706D /* FQAddLogoVC.swift */,
+				58110A6B228C214200C3706D /* FQAddLogoVC.xib */,
+				58D7206022900EA200CE2665 /* FQDoImageVC.swift */,
+				58D7206122900EA200CE2665 /* FQDoImageVC.xib */,
+				58D7206422900EBC00CE2665 /* FQComposeImageSVC.swift */,
+				58D7206522900EBC00CE2665 /* FQComposeImageSVC.xib */,
 			);
 			path = NextVc;
+			sourceTree = "<group>";
+		};
+		58D7205B228FECB000CE2665 /* reasouce */ = {
+			isa = PBXGroup;
+			children = (
+				58D7205C228FECBE00CE2665 /* add.jpeg */,
+				58D7205D228FECBF00CE2665 /* current.jpg */,
+			);
+			path = reasouce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +324,12 @@
 			files = (
 				58323E18223BB25E0032A64F /* LaunchScreen.storyboard in Resources */,
 				58323E15223BB25E0032A64F /* Assets.xcassets in Resources */,
+				58D7206722900EBC00CE2665 /* FQComposeImageSVC.xib in Resources */,
+				58110A6D228C214200C3706D /* FQAddLogoVC.xib in Resources */,
+				58D7205E228FECBF00CE2665 /* add.jpeg in Resources */,
 				58323E13223BB25C0032A64F /* Main.storyboard in Resources */,
+				58D7206322900EA200CE2665 /* FQDoImageVC.xib in Resources */,
+				58D7205F228FECBF00CE2665 /* current.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,18 +357,22 @@
 				58323E47223BDC130032A64F /* UIScrollView+FQScreenshot.swift in Sources */,
 				58323E5D223D1D540032A64F /* FQScrollViewVC.swift in Sources */,
 				58323E41223BB4930032A64F /* UIImage+FQScreenshot.swift in Sources */,
+				58110A0F22800E5400C3706D /* UIImage+FQAddLogo.swift in Sources */,
 				58323E45223BD8140032A64F /* UIViewController+FQScreenshot.swift in Sources */,
 				58323E3F223BB45C0032A64F /* UIView+FQScreenshot.swift in Sources */,
 				58323E10223BB25C0032A64F /* ViewController.swift in Sources */,
 				58323E4E223CA2EE0032A64F /* BaseViewController.swift in Sources */,
 				58323E50223CAB800032A64F /* ShotViewController.swift in Sources */,
 				58323E57223CEA810032A64F /* FQWebVC.swift in Sources */,
+				58110A6C228C214200C3706D /* FQAddLogoVC.swift in Sources */,
+				58110A142283D69E00C3706D /* FQShoutManger.swift in Sources */,
 				58323E0E223BB25C0032A64F /* AppDelegate.swift in Sources */,
 				58323E5B223D17CF0032A64F /* FQViewVC.swift in Sources */,
+				58D7206222900EA200CE2665 /* FQDoImageVC.swift in Sources */,
+				58D7206622900EBC00CE2665 /* FQComposeImageSVC.swift in Sources */,
 				58323E61223D22F80032A64F /* FQCollectionVC.swift in Sources */,
 				58323E4B223C050A0032A64F /* UIWebView+FQScreenShot.swift in Sources */,
 				58323E59223CF53D0032A64F /* FQWkWebVC.swift in Sources */,
-				58323E49223BEE6C0032A64F /* FQScreenShot.swift in Sources */,
 				58323E5F223D22D70032A64F /* FQTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,7 +549,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FQScreenshotDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +568,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FQScreenshotDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

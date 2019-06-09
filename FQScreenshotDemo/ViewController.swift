@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
     
     func loadData(){
-        dataArr = ["UIWebView保存为图片","UITableView保存为图片","WKWebView保存为图片","UIScrollView保存为图片","UICollectionView保存为图片","UIView保存图片"]
+        dataArr = ["UIWebView保存为图片","UITableView保存为图片","WKWebView保存为图片","UIScrollView保存为图片","UICollectionView保存为图片","UIView保存图片","图片加水印","图片处理","多张图片拼接"]
     }
     
     func initTableView(){
@@ -59,6 +59,12 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
             nextVC = FQCollectionVC()
         case 5:
             nextVC = FQViewVC()
+        case 6:
+            nextVC = FQAddLogoVC()
+        case 7:
+            nextVC = FQDoImageVC()
+        case 8:
+            nextVC = FQComposeImageSVC()
         default:
             break
         }

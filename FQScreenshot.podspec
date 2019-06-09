@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FQScreenshot"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A snapshot library."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ spec.license      = "MIT"
   #  Not including the public_header_files will make all headers public.
   #
   spec.swift_version = '4.2'
-  spec.source_files  = "FQScreenshot/*.swift"
+  spec.source_files  = "FQScreenshotDemo/FQScreenshot/*.swift"
   #  spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
