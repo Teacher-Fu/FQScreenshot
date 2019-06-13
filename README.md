@@ -69,7 +69,7 @@ image = image.composeImageWithImage(addImgae: addImg, frame: CGRect(x: 0, y: 0, 
         let addImage = UIImage()
         finish = currentImage.composeOutsideImgaeInImage(addImage: addImage, corner: UIImage.ComposeImageEnum.rightTop, margin: 20)
 ```
-```
+```swift
 //多图拼接
 var finishImage = UIImage()
 let bgImage = UIImage()
