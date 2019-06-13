@@ -2,9 +2,9 @@
 
 ## 一句代码保存截图,将View相关的页面保存为图片,支持 UIView,UIScrollView,UITableView,UICollectionView,UIWebView,WKWebView。支持iOS11
 
-##一句话异步把view切成圆型,把view切成正三角形,正六边形,正五边形,菱形
+## 一句话异步把view切成圆型,把view切成正三角形,正六边形,正五边形,菱形
 
-##一句话拼接图片,加水印
+## 一句话拼接图片,加水印
 
 [![](https://img.shields.io/badge/Supported-iOS9-4BC51D.svg?style=flat-square)](https://github.com/Teacher-Fu/FQScreenshot)
 [![](https://img.shields.io/badge/Swift-compatible-4BC51D.svg?style=flat-square)](https://github.com/Teacher-Fu/FQScreenshot)
