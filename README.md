@@ -48,7 +48,7 @@ let image = UIImageView()
 image.async_maskRadiusImage(chartType: UIView.ChartType.circular)
 ```
 
-###3.加水印
+### 3.加水印
 ```swift
 //水印文字
 var image = UIImage()
@@ -64,10 +64,10 @@ image = image.composeImageWithImage(addImgae: addImg, frame: CGRect(x: 0, y: 0, 
 ### 4.拼接图片
 ```swift
 //两张拼接
-        var finish = UIImage()
-        let currentImage = UIImage()
-        let addImage = UIImage()
-        finish = currentImage.composeOutsideImgaeInImage(addImage: addImage, corner: UIImage.ComposeImageEnum.rightTop, margin: 20)
+var finish = UIImage()
+let currentImage = UIImage()
+let addImage = UIImage()
+finish = currentImage.composeOutsideImgaeInImage(addImage: addImage, corner: UIImage.ComposeImageEnum.rightTop, margin: 20)
 ```
 ```swift
 //多图拼接
