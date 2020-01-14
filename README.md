@@ -1,6 +1,6 @@
 # FQScreenShot
 
-## 一句代码保存截图,将View相关的页面保存为图片,支持 UIView,UIScrollView,UITableView,UICollectionView,UIWebView,WKWebView。支持iOS11
+## 一句代码保存截图,将View及其子视图相关的页面保存为图片.
 
 ## 一句话异步把view切成圆型,把view切成正三角形,正六边形,正五边形,菱形
 
